@@ -1,0 +1,19 @@
+#form-card{
+    padding: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button{
+    width: 150px;
+    margin-top: 10px;
+}

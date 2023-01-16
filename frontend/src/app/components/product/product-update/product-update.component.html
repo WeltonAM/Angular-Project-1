@@ -1,0 +1,36 @@
+<mat-card id="form-card">
+    <mat-card-title>Alter Product</mat-card-title>
+    
+    <form action="">
+
+        <mat-form-field>
+            <input 
+                type="text" 
+                matInput 
+                placeholder="Name" 
+                [(ngModel)]="product.name"
+                name="name"
+            >
+        </mat-form-field>
+            
+        <mat-form-field>
+            <input 
+                type="number" 
+                matInput 
+                placeholder="Price ($)"
+                [(ngModel)]="product.price"
+                name="price"
+            >
+        </mat-form-field>
+
+    </form>
+    
+    <button mat-stroked-button color="primary" (click)="updateProduct()">
+        Update
+    </button>
+
+    <button mat-stroked-button (click)="cancel()" color="accent">
+        Cancel
+    </button>
+
+</mat-card>
