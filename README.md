@@ -1,4 +1,4 @@
-### 📐♂️ Angular register!
+### 📐 Angular register!
 
 ## 🚀 How to execute this project:
 
